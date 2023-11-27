@@ -1,7 +1,7 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QDialog, QVBoxLayout
-from PyQt6.QtSql import QSqlDatabase, QSqlTableModel
-from PyQt6.uic import loadUi
+from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QDialog, QVBoxLayout
+from PyQt5.QtSql import QSqlDatabase, QSqlTableModel
+from PyQt5.uic import loadUi
 
 
 class CoffeeInfoApp(QMainWindow):
